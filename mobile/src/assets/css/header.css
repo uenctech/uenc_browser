@@ -1,0 +1,115 @@
+.sticky2 {
+  position: fixed !important;
+  top: 0px !important;
+  z-index: 30 !important;
+  background: #F5F5F5 !important;
+}
+#slideright {
+  position: relative;
+  top: -7px;
+  right: 0px;
+  width: 12.5px;
+  height: 12.5px;
+}
+#slideright2 {
+  position: relative;
+  top: -7px;
+  right: 0px;
+  width: 13.12px;
+  height: 13.12px;
+}
+#slideleft {
+  width: 10.13px;
+  height: 18.13px;
+  position: relative;
+  left: 15px;
+  top: -7px;
+}
+.van-tabs__wrap {
+  z-index: 0 !important;
+}
+.buttonline {
+  width: 0px;
+  height: 11px;
+  border: 1px solid #999999;
+  opacity: 1;
+}
+#topbutton {
+  width: 82px;
+  height: 33px;
+  background: #FFFFFF;
+  border: 1px solid #999999;
+  opacity: 1;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 12px;
+  align-items: center;
+}
+.headertop {
+  width: 100%;
+  height: 35px;
+  position: relative;
+  top: 0px;
+  display: flex;
+  line-height: 35px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.headertop .header_title {
+  font-size: 18px;
+  font-family: "苹方-简";
+  font-weight: normal;
+  line-height: 33px;
+  color: #333333;
+  opacity: 1;
+  position: relative;
+  left: 30px;
+}
+.headertop img {
+  width: 19.5px;
+  height: 17.5px;
+  margin-top: 13px;
+}
+.headertop .van-popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.headertop .van-popup img {
+  width: 16.41px;
+  height: 16.41px;
+  margin-left: 14px;
+}
+.headertop .van-popup .title_list {
+  position: relative;
+  top: -26px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.headertop .van-popup .title_list li {
+  display: flex;
+  flex-direction: column;
+}
+.headertop .van-popup .title_list li img {
+  width: 22px;
+  height: 24.14px;
+  margin: 0 auto;
+  margin-top: 9px;
+}
+.headertop .van-popup .title_list li p {
+  font-size: 12px;
+  font-family: "苹方-简";
+  font-weight: normal;
+  line-height: 17px;
+  opacity: 1;
+  text-align: center;
+  margin: 0 auto;
+}
+.headertop .popstyle {
+  background: #000000;
+  opacity: 0.5;
+}
